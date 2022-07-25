@@ -84,6 +84,10 @@ export default class UIConfig {
         prefabUrl: "Forms/Windows/UITips",
         type: "UIWindow"
     }
+    static UISwiper = {
+        prefabUrl: "Forms/Screen/UISwiper",
+        type: "UIScreen"
+    }
     
 }
 cc.game.on(cc.game.EVENT_GAME_INITED, () => {

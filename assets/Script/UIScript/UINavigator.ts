@@ -44,6 +44,8 @@ export default class UINavigator extends UIScreen {
                 break;
             case "meshTexture":
                 FormMgr.open(UIConfig.UIMeshTexture);
+            case "swiper":
+                FormMgr.open(UIConfig.UISwiper);
                 break;
         }
     }
